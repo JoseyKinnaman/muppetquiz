@@ -16,7 +16,7 @@
   <div class ="container">
     <div class="box">
     <h2>How much do you agree with the following statements?</h2>
-      <form>
+      <form id="survey">
         <div class="form group">
           <p>I like to party.</p>
           <select id="animal-party">
@@ -30,28 +30,45 @@
         <div class="verticalspacer">
         </div>
         <div class="form group">
-            <p>I am very funny.</p>
-            <select id="fozzie-funny">
+          <p>I am very funny.</p>
+          <select id="fozzie-funny">
+            <option value="1">Not like me at all.</option>
+            <option value="2">Rarely like me.</option>
+            <option value="3">I have no opinion about that statement.</option>
+            <option value="4">Somewhat like me.</option>
+            <option value="5">Definitely like me.</option>
+          </select>
+        </div>
+        <div class="verticalspacer">
+        </div>
+        <div class="form group">
+          <p>I feel anxious a lot.</p>
+          <select id="gonzo-anxiety">
+            <option value="1">Not like me at all.</option>
+            <option value="2">Rarely like me.</option>
+            <option value="3">I have no opinion about that statement.</option>
+            <option value="4">Somewhat like me.</option>
+            <option value="5">Definitely like me.</option>
+          </select>
+        </div>
+        <div class="verticalspacer">
+        </div>
+        <div class="form group">
+            <p>People often call me "Sassy."</p>
+            <select id="piggy-sassy">
               <option value="1">Not like me at all.</option>
               <option value="2">Rarely like me.</option>
               <option value="3">I have no opinion about that statement.</option>
               <option value="4">Somewhat like me.</option>
               <option value="5">Definitely like me.</option>
             </select>
+          </div>  
+          <div class="verticalspacer">
           </div>
-          <div class="form group">
-              <p>I feel anxious a lot.</p>
-              <select id="gonzo-anxiety">
-                <option value="1">Not like me at all.</option>
-                <option value="2">Rarely like me.</option>
-                <option value="3">I have no opinion about that statement.</option>
-                <option value="4">Somewhat like me.</option>
-                <option value="5">Definitely like me.</option>
-              </select>
-            </div>  
+          <button type="submit" class="btn-success">Show me the Muppet!</button>
       </form>
     </div>
   </div>
-  
+
 </body>
 </html>
